@@ -1,0 +1,293 @@
+* {
+ margin:0;
+ padding: 0;
+}
+
+body {
+ background-image: url('../images/bg.png');
+ text-align: center;
+ font-family:'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+}
+img {
+ border: none;
+ max-width: 100%;
+ height: auto;
+ width /***/: auto;
+ vertical-align: bottom;
+}
+.clear {
+ clear: both;
+}
+.vis_h {
+ visibility: hidden;
+}
+#container {
+ position: relative;
+ overflow: hidden;
+ min-width: 980px;
+}
+
+#header_wrapper {
+ width: 100%;
+ background-color: #fff;
+}
+#header {
+ max-width: 980px;
+ height: 40px;
+ margin: 0 auto;
+ text-align: right;
+}
+#header ul {
+ list-style: none;
+ display: inline-block;
+ vertical-align: middle;
+ margin-top: 8px;
+}
+#header ul li {
+ display: inline-block;
+ width: 75px;
+ font-size: 14px;
+ text-align: center;
+ border-right: solid 1px #000;
+}
+#header ul li:last-child {
+ border-right: none;
+}
+#header ul li a {
+ text-decoration: none;
+ color: black;
+}
+#header ul li a:hover {
+ text-decoration: underline;
+}
+#main {
+ max-width: 940px;
+ margin: 0 auto;
+ padding: 20px 20px;
+ background-color: white;
+ position: relative;
+}
+#main_sub {
+ max-width: 940px;
+ margin: 0 auto;
+ padding: 80px 20px 20px;
+ background: url('../images/subpage_bg.png') center 25px no-repeat;
+ background-color: white;
+ position: relative;
+}
+#sidebar {
+ width: 241px;
+ float: left;
+}
+#sidebar a img:hover {
+ opacity: 0.6;
+ filter: alpha(opacity=60);
+ -ms-filter: "alpha(opacity=60)";
+ -moz-opacity: 0.6;
+}
+
+#footer {
+}
+#footer_inner{
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 40px;
+ text-align: center;
+ background-image: url('../images/footer_bg.png');
+}
+#footer_inner #footer_logo {
+ margin-bottom: 20px;
+}
+#footer_inner ul {
+ float: left;
+ list-style-position: inside;
+ color: #754C24;
+}
+#footer_inner ul li {
+ width: 180px;
+ text-align: left;
+ position: relative;
+}
+#footer_inner ul li a {
+ text-decoration: none;
+ color: black;
+ font-size: 12px;
+ position: absolute;
+ top: 3px;
+ left: 8px;
+}
+#footer_inner ul li a:hover {
+ color: #888;
+}
+#copy_right {
+ max-width: 980px;
+ margin: 0 auto;
+ height: 30px;
+ line-height: 30px;
+ color: #fff;
+ font-size: 14px;
+ text-align: center;
+ background-image: url('../images/footer_bg2.png');
+}
+#copy_right span {
+ vertical-align: middle;
+}
+
+/* top page */
+#slidebox {
+ position: relative;
+ height: 600px;
+ width: 1900px;
+ z-index: 1;
+ left: 50%;
+ margin-left: -950px;
+ background-color: #fff;
+}
+#slidebox img {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+}
+
+#logo_wrapper {
+ position: relative;
+ max-width: 980px;
+ margin: 0 auto;
+}
+#logo_wrapper #logo {
+ position: absolute;
+ top: 50px;
+ z-index: 2;
+}
+#logo_wrapper #logo a img:hover {
+ opacity: 0.9;
+ filter: alpha(opacity=90);
+ -ms-filter: "alpha(opacity=90)";
+ -moz-opacity: 0.9;
+}
+#for_slide {
+ position: absolute;
+ top: 99px;
+ right: 100px;
+ z-index: 2;
+ display: none;
+}
+.top_bg1, .top_bg2{
+ position: absolute;
+ z-index:1;
+}
+.top_bg1 {
+ top: 60px;
+ left: -160px;
+}
+.top_bg2 {
+ top: 910px;
+ left: 670px;
+}
+.top_box {
+ position: relative;
+ z-index:2;
+ padding-top: 30px;
+}
+.top_main_box {
+ width: 600px;
+ float: left;
+ text-align: left;
+ margin-top: 26px;
+}
+.top_main_box-1 {
+ margin-top: 0;
+}
+.top_banner_box {
+ width: 321px;
+ float: right;
+/* margin-bottom: 10px; */
+}
+#top_banner_box2 {
+ width: 340px;
+ float: right;
+ margin-bottom: 15px;
+}
+.top_banner_box img,
+#top_banner_box2 a img {
+ margin-bottom: 20px;
+}
+#top_banner_box2 a:last-child img {
+ margin-bottom: 0;
+}
+
+#news_box {
+ height: 460px;
+ overflow-y: scroll;
+ padding-left: 10px;
+ font-size: 12px;
+ line-height: 1.8;
+ margin-top: 20px;
+}
+#news_box h2 {
+ font-size: 16px;
+ font-weight: normal;
+ margin-bottom: 5px;
+}
+#news_box .title {
+ font-size: 14px;
+}
+.top_banner_box a img:hover,
+#top_banner_box2 a img:hover {
+ opacity: 0.6;
+}
+
+/* other page */
+#header_sub {
+ max-width: 980px;
+ margin: 0 auto;
+}
+#subheader {
+ text-align: left;
+ position: relative;
+}
+#subheader #logo {
+ position: absolute;
+ z-index: 2;
+ max-width: 280px;
+ max-height: 245px;
+}
+#subheader #logo a {
+ position: absolute;
+ display: block;
+ z-index: 3;
+ max-width: 168px;
+ max-height: 168px;
+ top: 0;
+ bottom:0;
+ left:0;
+ right: 0;
+ margin: auto;
+ width: 100%;
+/* left: 50%;
+ margin-left: -84px;*/
+} 
+
+#subheader #logo a:hover {
+ opacity: 0.6;
+ filter: alpha(opacity=60);
+ -ms-filter: "alpha(opacity=60)";
+ -moz-opacity: 0.6;
+}
+#main_contents {
+ float: left;
+ margin-left: 50px;
+ text-align: left;
+ width: 600px;
+}
+
+#main_contents h2 {
+ margin-bottom: 70px;
+}
+
+#news-rireki dl dt {
+ font-weight: bold;
+ color: #534842;
+}

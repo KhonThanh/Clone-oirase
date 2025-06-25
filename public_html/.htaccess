@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteRule ^ja/co/(.*)$ lang/co/$1 [R=301,L]
+#RewriteRule ^ja/chi/(.*)$ lang/chi/$1 [R=301,L]
+#RewriteRule ^ja/en/(.*)$ lang/en/$1 [R=301,L]
+
+RewriteRule ^ja/co/index\.html$ co [R=301,L]
+RewriteRule ^ja/co/ditail\.html$ co/detail [R=301,L]
+RewriteRule ^ja/co/(.*)\.html$ co/$1 [R=301,L]
+RewriteRule ^ja/chi/index\.html$ chi [R=301,L]
+RewriteRule ^ja/chi/ditail(\.html)$ chi/detail [R=301,L]
+RewriteRule ^ja/chi/(.*)\.html$ chi/$1 [R=301,L]
+RewriteRule ^ja/en/index\.html$ en [R=301,L]
+RewriteRule ^ja/en/ditail.html$ en/detail [R=301,L]
+RewriteRule ^ja/en/(.*)\.html$ en/$1 [R=301,L]
+RewriteRule ^ja/oirase_guide/(.*)$ oirase_guide/$1 [R=301,L]
+RewriteRule ^ja/index.html$ ja [R=301,L]
+RewriteRule ^ja/ditail.html$ ja/detail [R=301,L]
+RewriteRule ^ja/(.*)\.html$ ja/$1 [R=301,L]
+RewriteRule ^index.html$ / [R=301,L]
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

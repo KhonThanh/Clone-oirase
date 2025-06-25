@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=980, maximum-scale=1.0">
+<meta name="keywords" content="エコロード,十和田湖,奥入瀬渓流,奥入瀬,マイカー規制,国立公園,十和田八幡平国立公園マイカー,マイカー交通規制,紅葉,エコツーリズム,遊覧船,ウォーク,ウオーク,休屋,焼山" />
+<meta name="description" content="奥入瀬渓流エコツーリズムプロジェクトホームページです" />
+<title>奥入瀬渓流エコツーリズムプロジェクト | 奥入瀬渓流マイカー規制情報 | 奥入瀬エコロードフェスタ</title>
+<!-- link href="http://www.eco-oirase.com/ja/css/style.css" rel="stylesheet" type="text/css" / -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">_uacct = "UA-2446816-1";urchinTracker();</script>
+</head>
+<body>
+<div id="container">
+<div id="header_wrapper">
+ <div id="header">
+  <ul>
+   <li><a href=".">日本語</a></li><li><a href="co/index.html">한국어</a></li><li><a href="en/index.html">English</a></li><li><a href="chi/index.html">中国語</a></li>
+  </ul>
+ </div>
+</div>
+<div id="logo_wrapper">
+ <div id="logo">
+  <a href="."><img src="images/logo.png" alt=""></a>
+ </div>
+ <div id="for_slide">
+  <img src="images/for_slide.png" alt="">
+ </div>
+</div>
+<div id="slidebox">
+<img src="images/slide_1.jpg" alt="">
+<img src="images/slide_2.jpg" alt="" class="vis_h">
+<img src="images/slide_3.jpg" alt="" class="vis_h">
+</div>
+<script type="text/javascript">
+<!--
+var BR_TYPE_NN = "NETSCAPE";
+var BR_TYPE_NN4 = "NN4";
+var BR_TYPE_IE = "MSIE";
+var BR_TYPE_OPERA = "opera";
+var BR_TYPE_FF = "FIREFOX";
+var BR_TYPE_CHROME = "CHROME";
+var BR_TYPE_SAFARI = "SAFARI";
+var BR_TYPE_MOZILLA = "MOZILLA";
+var BR_TYPE_IPHONE = "IPHONE";
+var BR_TYPE_IPAD = "IPAD";
+var BR_TYPE_ANDROID = "ANDROID";
+var BR_TYPE_ANDROIDTAB = "Android Tab";
+var BR_TYPE_WINDOWS = "WINDOWS PHONE";
+
+window.onload = function() {
+  var tm = 100;
+  var timerID = setTimeout(function _check(){
+   var imgs = document.getElementById('slidebox').getElementsByTagName('img');
+   if (imgs.length<2) {
+     clearTimeout(timerID);
+     return;
+   }
+   var done = 0;
+   for(var i=0; i<imgs.length;i++){
+    if(imgs[i].complete) done++;
+   }
+   if (done==imgs.length){
+     clearTimeout(timerID);
+     slideshow(imgs);
+     return;
+   }
+   timerID = setTimeout(_check,tm);
+  },tm);
+}
+
+function slideshow(imgs) {
+  var idx = 0;
+  var tm = 3000;
+  var cnt = 0;
+  var timerID = setTimeout(function _slide(){
+   tm = 50;
+   if(cnt==60){
+     setAlpha2(imgs[idx],100);
+     cnt=0;
+     tm = 3000;
+   } else if (cnt==40){
+     cnt++;
+     setAlpha2(imgs[idx],0);
+     imgs[idx].style.top = '0px';
+     imgs[idx].style.left = '0px';
+     imgs[idx].style.bottom = '0px';
+     imgs[idx].style.right = '0px';
+     imgs[idx].style.visibility = 'hidden';
+
+     idx++;
+     if (idx==imgs.length) idx = 0;
+     setAlpha2(imgs[idx],0);
+     imgs[idx].style.visibility = 'visible';
+   } else if (cnt>=20&&cnt<40){
+     cnt++;
+     setAlpha2(imgs[idx],100-5*(cnt-20));
+   } else {
+     cnt++;
+     if(cnt<=20){
+/*       imgs[idx].style.top = -1 * cnt + 'px';
+       imgs[idx].style.left = -1 * cnt + 'px';
+       imgs[idx].style.bottom = -1 * cnt + 'px';
+       imgs[idx].style.right = -1 * cnt + 'px';*/
+     } else {
+       setAlpha2(imgs[idx],5*(cnt-40));
+     }
+   }
+
+   timerID = setTimeout(_slide,tm);
+  },tm);
+}
+function setAlpha2(img,a) {
+		if (document.all) {
+			img.filters['alpha'].opacity = a;
+	} else {
+		var btype= getBrowserType();
+		if (btype==BR_TYPE_FF || btype== BR_TYPE_NN) {
+			img.style.MozOpacity = a / 100;
+		} else {
+			img.style.opacity = a / 100;
+		}
+	}
+}
+function getBrowserType() {
+  var brtype = "";
+  var uName = navigator.userAgent.toUpperCase();
+  var aName = navigator.appName.toUpperCase();
+
+  if (window.opera) {
+    brtype = BR_TYPE_OPERA;
+  } else if (uName.indexOf(BR_TYPE_NN) >=0) {
+    brtype = BR_TYPE_NN;
+  } else if (uName.indexOf(BR_TYPE_FF) >=0) {
+    brtype = BR_TYPE_FF;
+  } else if (uName.indexOf(BR_TYPE_IE) >=0||uName.indexOf('TRIDENT') >=0) {
+    brtype = BR_TYPE_IE;
+  } else if (uName.indexOf(BR_TYPE_CHROME) >=0) {
+    brtype = BR_TYPE_CHROME;
+  } else if (uName.indexOf(BR_TYPE_SAFARI) >=0) {
+    brtype = BR_TYPE_SAFARI;
+  } else if (document.layers) {
+    brtype = BR_TYPE_NN4;
+  } else if (uName.indexOf(BR_TYPE_MOZILLA) == 0) {
+    brtype = BR_TYPE_MOZILLA;
+  } else if (uName.indexOf(BR_TYPE_IPHONE) == 0) {
+    brtype = BR_TYPE_IPHONE;
+  } else if (uName.indexOf(BR_TYPE_IPAD) == 0) {
+    brtype = BR_TYPE_IPAD;
+  } else if (uName.indexOf(BR_TYPE_ANDROID) == 0) {
+    brtype = BR_TYPE_ANDROID;
+  } else if (uName.indexOf(BR_TYPE_WINDOWS) == 0) {
+    brtype = BR_TYPE_WINDOWS;
+  }
+
+  return brtype;
+}
+
+-->
+</script>
+<div id="main">
+ <img src="images/new_bg.png" alt="" class="top_bg1">
+ <img src="images/top_bg2.png" alt="" class="top_bg2">
+ <div class="top_box">
+  <div class="top_banner_box">
+   <img src="images/banner_kisei.png" alt="奥入瀬渓流マイカー交通規制">
+   <a href="pdf/all2017.pdf" target="_blank"><img src="images/banner_sougou_b.jpg" alt="2017年度版総合パンフレット"></a>
+   <!-- a href="pdf/2017_daily_use_pamphlet.pdf" target="_blank" --><img src="images/banner_toujitsu_1.png" alt="2017年度当日パンフレット"><!-- /a -->
+  </div>
+  <div class="top_main_box top_main_box-1">
+   <img src="images/news_title.png" alt="最新ニュース">
+   <div id="news_box">
+<!-- h29.7.27 -->
+<h2>「せせらぎ体感プロジェクト」WEBサイトについて</h2>
+国土交通省 青森河川国道事務所 「せせらぎ体感プロジェクト」WEBサイトできました。<br>
+詳しくは以下のURLをご覧ください。<br>
+<a href="http://www.thr.mlit.go.jp/aomori/road/topic/oirase/index.html" target="_blank">せせらぎ体感プロジェクトWEBサイト</a><br>
+<br>
+<!-- h29.7.11 -->
+<h2>エコロードフェスタ開催について</h2>
+今年のエコロードフェスタは10月28日(土)～29日(日)の開催予定です。<br>
+また、交通規制は以下の期間に実施予定です。<br>
+<strong class="title">10月26日(木)～27日(金)</strong><br>
+　規制時間/10:00～14:00まで<br>
+<strong class="title">10月28日(土)～29日(日)</strong><br>
+　規制時間/9:00～15:00まで<br>
+
+<br>
+<br>
+<div id="rireki">
+<p><a href="news/rireki28.html" class="old-news"><span>平成28年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki27.html" class="old-news"><span>平成27年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki26.html" class="old-news"><span>平成26年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki25.html" class="old-news"><span>平成25年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki24.html" class="old-news"><span>平成24年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki23.html" class="old-news"><span>平成23年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki22.html" class="old-news"><span>平成22年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki21.html" class="old-news"><span>平成21年度のニュースはこちら</span></a></p>
+<p><a href="news/rireki20.html" class="old-news"><span>平成20年度のニュースはこちら</span></a></p>
+</div>
+
+   </div>
+  </div>
+  <!-- div class="clear"></div -->
+  <div class="top_main_box">
+   <div id="sidebar">
+    <a href="."><img src="images/menu_top.png" alt="トップページ"></a>
+<a href="project/project.html"><img src="images/menu_project.png" alt="プロジェクトの概要"></a>
+<a href="regulation/ditail.html"><img src="images/menu_kisei.png" alt="マイカー交通規制の詳細"></a>
+<a href="regulation/parking.html"><img src="images/menu_parking.png" alt="駐車場ガイド"></a>
+<a href="regulation/bus-ship.html"><img src="images/menu_busship.png" alt="シャトルバス・遊覧船"></a>
+<a href="regulation/faq.html"><img src="images/menu_kiseiqa.png" alt="交通規制に関するQ&A"></a>
+<a href="walking/walking.html"><img src="images/menu_walking.png" alt="奥入瀬渓流の歩き方"></a>
+<a href="ever/ever.html"><img src="images/menu_activity.png" alt="これまでの活動内容"></a>
+<a href="team/team.html"><img src="images/menu_team.png" alt="プロジェクトチーム員"></a>
+<a href="access/access.html"><img src="images/menu_access.png" alt="アクセス"></a>
+<a href="contact/contact.html"><img src="images/menu_contact.png" alt="お問い合わせ"></a>
+<a href="link/link.html"><img src="images/menu_links.png" alt="リンク集"></a>
+<div style="height: 20px;"></div>
+<a href="https://www.facebook.com/奥入瀬渓流エコロードフェスタ-1659801794348033/" target="_blank"><img src="images/banner_facebook.jpg" alt="facebookはこちら"></a>
+   </div>
+   <div id="top_banner_box2">
+    <a href="http://youtu.be/oOBVrbh8wVU" target="_blank"><img src="images/youtube.jpg" alt="奥入瀬エコロードフェスタの開催状況を集約したビデオを御覧ください。（YouTube動画・約5分）" /></a>
+    <a href="pdf/aki_sanpo.pdf" target="_blank"><img src="images/aki_sanpo.png" alt="秋さんぽ" /></a>
+    <a href="http://www.thr.mlit.go.jp/aomori/road/topic/oirase/index.html" target="_blank"><img src="images/seseragi_project.gif" alt="せせらぎ体感プロジェクト" /></a>
+    <a href="http://www.npo-oirase.com" target="_blank"><img src="images/banner_nintei.png" alt="十和田奥入瀬認定ガイド" /></a>
+    <a href="http://www.aptinet.jp/" target="_blank"><img src="images/banner_aptynet.png" alt="AptiNet 青森県観光情報サイト" /></a>
+    <a href="http://www.toutetsu.co.jp/ship.html" target="_blank"><img src="images/banner_ship.png" alt="十和田湖遊覧船" /></a>
+    <a href="http://www.aosya.com/" target="_blank"><img src="images/banner_aosya.png" alt="無料壁紙写真素材～『青い森の写真館』リンク" /></a>
+   </div>
+   <div class="clear"></div>
+  </div>
+  <div class="top_banner_box">
+   <a href="https://tenki.jp/leisure/camp/2/5/23017/" target="_blank"><img src="images/banner_weather.png" alt="十和田湖の天気（日本気象協会）"></a>
+   <a href="http://towadako-livecam-01.aa0.netvolante.jp:8080/viewer/live/ja/live.html" target="_blank"><img src="images/banner_livecamera.png" alt="十和田湖畔ライブカメラ"></a>
+   <a href="http://www.koutsu-aomori.com/Road/livecamera.html" target="_blank"><img src="images/banner_aomorilivecamera.png" alt="青森県内ライブカメラ（青森みち情報）"></a>
+  </div>
+  <div class="clear"></div>
+ </div>
+</div>
+<div id="footer">
+ <div id="footer_inner">
+  <div id="footer_logo"><img src="images/footer_logo.png" alt=""></div>
+  <ul>
+   <li><a href=".">トップページ</a></li>
+   <li><a href="project/project.html">プロジェクトの概要</a></li>
+  </ul>
+  <ul>
+   <li><a href="regulation/ditail.html">マイカー交通規制の詳細</a></li>
+   <li><a href="regulation/parking.html">駐車場ガイド</a></li>
+   <li><a href="regulation/bus-ship.html">シャトルバス・遊覧船</a></li>
+   <li><a href="regulation/faq.html">交通規制に関するQ&A</a></li>
+  </ul>
+  <ul>
+   <li><a href="walking/walking.html">奥入瀬渓流の歩き方</a></li>
+   <li><a href="team/team.html">プロジェクトチーム員</a></li>
+   <li><a href="ever/ever.html">これまでの活動内容</a></li>
+  </ul>
+  <ul>
+   <li><a href="access/access.html">アクセス</a></li>
+   <li><a href="contact/contact.html">お問い合わせ</a></li>
+   <li><a href="link/link.html">リンク集</a></li>
+  </ul>
+  <ul>
+   <li><a href="about/guid.html">ご利用案内</a></li>
+   <li><a href="about/privacy.html">個人情報の取り扱いについて</a></li>
+   <li><a href="about/copyright.html">著作権・リンク</a></li>
+  </ul>
+  <div class="clear"></div>
+ </div>
+ <div id="copy_right">
+  <span>奥入瀬渓流利用適正化協議会・奥入瀬渓流エコツーリズムプロジェクト実行委員会</span>
+ </div>
+</div>
+<!-- container end -->
+</div>
+</body>
+</html>

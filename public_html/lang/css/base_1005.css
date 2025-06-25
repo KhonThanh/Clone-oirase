@@ -1,0 +1,773 @@
+html {
+	overflow-y:scroll;
+}
+body {
+	font-size: small;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+p,h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	padding: 0px;
+}
+h3 {
+	padding-left: 27px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #64AA44;
+	padding-top: 12px;
+	padding-bottom: 3px;
+	margin-top: 15px;
+	background: url(../img/cate/h3_ico.gif) no-repeat left bottom;
+	/font-size: 14px;
+}
+
+#all {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top {
+	background-image: url(../img/all_top.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#header {
+	background-image: url(../img/all_center.gif);
+	background-repeat: repeat-y;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+#contents {
+	background-image: url(../img/all_center.gif);
+	background-repeat: repeat-y;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+}
+#contents-inner {
+	float: left;
+}
+#left {
+	float: left;
+	width: 196px;
+	padding-right: 5px;
+}
+#menu {
+	padding-bottom: 7px;
+}
+#bana {
+}
+
+
+#projectteam {
+	width: 196px;
+	margin: 0 0 20px 0;
+}
+#projectteam dl,
+#projectteam dl dd,
+#projectteam dl dt {
+	margin:0;
+	padding:0;
+}
+#projectteam dl img {
+	vertical-align: bottom;
+	margin: 0 0 3px 0;
+}
+#projectteam dl {
+	display: block;
+	padding: 6px;
+	border: 1px solid #cccccc;
+	background-color: #eeeeee;
+}
+#projectteam dl dd {
+	text-align: center;
+}
+#projectteam dl a span {
+	font-size: 85%;
+}
+#projectteam {
+}
+
+
+#right {
+	float: left;
+	width: 599px;
+	margin-bottom: 10px;
+}
+#news {
+	width: 439px;
+	padding-right: 5px;
+	float: left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#news-title {
+	background-color: #8ACDDC;
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+* html #news-title {
+	padding-top: 7px;
+	padding-bottom: 2px;
+}
+#event-title {
+	background-color: #D5AD0F;
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+* html #event-title {
+	padding-top: 7px;
+	padding-bottom: 2px;
+}
+#camera {
+	width: 150px;
+	float: left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#kisei {
+	background-image: url(../img/bg_car.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 10px;
+	border: 1px solid #DBDBDB;
+	width: 577px;
+	float: left;
+	margin-bottom: 5px;
+}
+#folumbana {
+	margin: 0 0 5px 0;
+	}
+#folumbana img {
+	vertical-align: bottom;
+	}
+
+
+#all #contents #kisei h2 {
+	font-size: 100%;
+	line-height: 1.0;
+	background: #881111;
+	width: 577px;
+	margin: 0 0 10px 0;
+	}
+#all #contents #kisei h2 span {
+	padding: 8px 5px 5px 5px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #ffffff;
+	display: block;
+	line-height: 1.0;
+	}
+
+
+#tyuui {
+}
+.right-inner {
+	padding: 15px;
+}
+
+
+
+#footer {
+	background-image: url(../img/all_bottom.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	padding-top: 20px;
+	clear: both;
+}
+
+
+
+#tour-area {
+	margin: 0 0 5px 0;
+	}
+
+/* 緊急速報用 */
+
+#caution {
+	}
+#caution #caution-title {
+	display: none;
+	}
+#caution #caution-inner {
+	border: 2px solid #cc3333;
+	padding: 10px;
+	margin: 0 0 5px 0;
+	}
+
+#caution #quake-detail {
+	font-weight: bold;
+	line-height: 1.3;
+	color: #cc3333;
+	text-align: center;
+	}
+#caution #road-detail {
+	text-align: center;
+	}
+
+.caution-detail {
+	font-weight: bold;
+	color: #cc3333;
+	margin: 0 0 15px 0;
+	}
+
+
+/* 080821以降追加分 */
+
+/* -- カテゴリーリンク -- */
+
+.categories-nav {
+	margin: 0 0 3px 0;
+	}
+
+/* -- トップページ（index.html） -- */
+
+#summary {
+	clear: both;
+	margin: 0 0 5px 0;
+	border: 1px solid #7BB927;
+	font-size: 100%;
+	line-height: 1.0;
+	}
+#all #contents #summary h2 {
+	font-size: 100%;
+	line-height: 1.0;
+	background: #7BB927;
+	}
+#all #contents #summary h2 span {
+	padding: 8px 5px 5px 5px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #ffffff;
+	display: block;
+	line-height: 1.0;
+	}
+#all #contents #summary #forum,
+#all #contents #summary #mycar,
+#all #contents #summary #ticket {
+	}
+
+#summary #forum,
+#summary #mycar,
+#summary #ticket {
+	float: left;
+	width: 195px;
+	padding: 5px 0 5px 0;
+	}
+#summary dl {
+	padding: 0;
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	}
+#summary dt,
+#summary dd {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	}
+#summary dt.date span {
+	font-weight: bold;
+	font-size: 110%;
+	}
+#summary dd.image {
+	margin: 5px 0 0 0;
+	}
+#summary dd.detail {
+	color: #E4570C;
+	font-weight: bold;
+	line-height: 1.3;
+	}
+#summary .link-box {
+	clear: both;
+	text-align: right;
+	padding: 10px;
+	}
+
+#report {
+	clear: both;
+	margin: 0 0 5px 0;
+	border: 1px solid #7BB927;
+	font-size: 110%;
+	line-height: 1.0;
+	padding: 20px;
+	}
+#report #thanks {
+	width: 320px;
+	float: left;
+	}
+#report #eve-result {
+	width: 230px;
+	margin: 0 0 5px 0;
+	float: left;
+	}
+#report #eve-detail {
+	width: 230px;
+	float: left;
+	}
+#report #thanks p {
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 1.3;
+	color: #61811F;
+	}
+#report #eve-result a {
+	display: block;
+	width: 222px;
+	height: 42px;
+	background: url(../img/btn_eve-result.gif);
+	}
+#report #eve-result a span {
+	display: none;
+	}
+#report #eve-detail a {
+	display: block;
+	width: 222px;
+	height: 42px;
+	background: url(../img/btn_eve-detail.gif);
+	
+	}
+#report #eve-detail a span {
+	display: none;
+	}
+
+
+/* -- 規制情報（detail.html） -- */
+
+td.info h3 {
+	margin: 0 0 3px 0;
+	font-size: 100%;
+	}
+td.info h3 span {
+	font-size: 90%;
+	font-weight: normal
+	}
+td.info h4 {
+	margin: 5px 0 0 0;
+	padding: 0 0 0 15px;
+	background: url(../img/ico_leaf.gif) no-repeat left center;
+	font-size: 100%;
+	}
+td.info p {
+	padding: 0px 0 5px 15px;
+	}
+td.info span.caution {
+	font-size: 90%;
+	color: #cc3333;
+	}
+
+/* -- チーム員（team.html） -- */
+
+.team #team-list {
+	margin: 5px 0 20px 0;
+	}
+.team p.detail {
+	padding: 5px 0 15px 0;
+	}
+.team p.intro {
+	margin: 5px 0;
+	padding: 5px;
+	border: 2px solid #83BD35;
+	text-align: center;
+	font-weight: bold;
+	color: #3A5735;
+	}
+.team ul {
+	margin: 0;
+	padding: 0;
+	}
+.team ul li {
+	list-style: none;
+	}
+
+.team #team-list ul {
+	border-top: 1px solid #3A5735;
+	border-left: 1px solid #3A5735;
+	margin: 0 0 3px 0;
+	}
+.team #team-list ul li {
+	border-right: 1px solid #3A5735;
+	border-bottom: 1px solid #3A5735;
+	background: url(../img/bkg_team.gif) repeat-x left center;
+	}
+.team #team-list ul li a:link,
+.team #team-list ul li a:visited {
+	color: #333399;
+	}
+
+.team #team-list ul#s-class {
+	border: 1px solid #000000;
+	}
+.team #team-list ul#s-class li {
+	border: none;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	}
+.team #team-list ul#s-class li span {
+	background: url(../img/ico_leafs.gif) no-repeat 5px 5px;
+	display: block;
+	white-space: nowrap;
+	font-weight: bold;
+	}
+.team #team-list ul#s-class li span.name {
+	padding: 12px 0 0 38px;
+	font-size: 190%;
+	text-decoration: none;
+	}
+
+
+
+
+.team #team-list ul#a-class li span {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 10px 5px 5px 28px;
+	background: url(../img/ico_leafs.gif) no-repeat left center;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1.0;
+	color: #333399;
+	}
+* html .team #team-list ul#a-class li span {
+	padding: 12px 5px 3px 28px;
+	}
+
+.team #team-list ul#b-class li {
+	}
+.team #team-list ul#b-class li span {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 5px 3px 5px 15px;
+	background: url(../img/ico_leaf.gif) no-repeat left center;
+	font-weight: bold;
+	font-size: 105%;
+	color: #333399;
+	}
+* html .team #team-list ul#b-class li span {
+	padding: 8px 3px 3px 15px;
+	}
+
+.team #team-list ul#c-class li {
+	float: left;
+	width: 283px;
+	}
+.team #team-list ul#c-class li span {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 1px 3px 1px 0px;
+	font-size: 90%;
+	color: #333399;
+	}
+* html .team #team-list ul#c-class li span {
+	padding: 2px 3px 0px 0px;
+	}
+
+
+.team #team-list ul#a-class {}
+.team #team-list ul#a-class {}
+.team #team-list ul#a-class {}
+.team #team-list ul#a-class {}
+
+
+
+/* -- シャトル遊覧（bus-ship.html） -- */
+table.time-table {
+	border-collapse: collapse;
+	border: 2px solid #64AA44;
+	margin: 0 5px 0 0;
+	float: left;
+	}
+table.time-table td,
+table.time-table th {
+	border: 1px solid #64AA44;
+	padding: 1px 6px 1px 6px;
+	font-size: 90%;
+	font-family:"ＭＳ ゴシック";
+	}
+table.time-table th {
+	color: #ffffff;
+	font-size: 100%;
+	
+	}
+table.time-table td span {
+	color: #336600;
+	}
+
+.time-table-detail h4 {
+	color: #83BD35;
+	}
+.time-table-detail h4 span {
+	color: #333333;
+	}
+.time-table-detail p span {
+	color: #006633;
+	}
+
+#ship-guide #a-course,
+#ship-guide #b-course {
+	float: left;
+	width: 270px;
+	padding: 5px;
+	}
+#ship-guide table,
+#ship-guide table th,
+#ship-guide table td {
+	padding: 3px;
+	border-collapse: collapse;
+	border: 1px solid #3E6EB4;
+	text-align: center;
+	width: 270px;
+	color: #FFFFFF;
+	}
+#ship-guide #a-course th {
+	background-color: #3E6EB4;
+	}
+#ship-guide #b-course th {
+	background-color: #3E6EB4;
+	}
+#ship-guide #a-course td,
+#ship-guide #b-course td {
+	font-weight: bold;
+	font-size: 110%;
+	padding: 5px;
+	color: #333333;
+	}
+
+#ship-guide #a-course p,
+#ship-guide #b-course p {
+	margin: 5px 0 10px 0;
+	}
+#ship-guide #a-course dt {color: #83BD35;font-weight: bold;}
+#ship-guide #b-course dt {color: #ff9933;font-weight: bold;}
+#ship-guide dt span {color: #000000;}
+#ship-guide #b-course {}
+#ship-guide {}
+#ship-guide dd {margin: 0 0 0 15px;}
+#ship-guide span.caution {color:#cc3333;}
+
+#summary-box {
+	clear: both;
+	}
+#summary-box table {
+	width: 550px;
+	padding: 5px;
+	border-collapse: collapse;
+	border: 2px solid #3E6EB4;
+	}
+#summary-box table td {
+	border: 2px solid #3E6EB4;
+	text-align: left;
+	color: #333333;
+	}
+#summary-box table td ul {
+	margin: 0;
+	padding: 0;
+	}
+#summary-box table td ul li {
+	list-style: none;
+	font-weight: bold;
+	}
+#summary-box table td strong {
+	color: #3E6EB4;
+	}
+#summary-box table td strong span {
+	color: #000000;
+	}
+#summary-box table span.tel {
+	display: block;
+	padding: 5px 0 5px 20px;
+	background: url(../regulation/img/ico_tel.gif) no-repeat left center;
+	font-size: 110%;
+	font-weight: bold;
+	margin-left: 100px;
+	}
+
+/* -- 駐車場ガイド（parking.html） -- */
+
+#yakiyama-parking,
+#yasumiya-parking {
+	margin: 10px 0 0 0;
+	}
+#yakiyama-parking strong,
+#yasumiya-parking strong {
+	display: block;
+	padding: 20px 0 0 0;
+	font-size: 110%;
+	line-height: bold;
+	color:#ff9933;
+	background: url(../img/ico_line.png) repeat-x left bottom;
+	}
+#yakiyama-parking strong span,
+#yasumiya-parking strong span {
+	color:#000000;
+	}
+#yakiyama-parking ul,
+#yasumiya-parking ul {
+	padding: 0;
+	margin: 0 0 0 0;
+	}
+#yakiyama-parking li,
+#yasumiya-parking li {
+	display: block;
+	float: left;
+	list-style: none;
+	padding: 10px 10px 10px 33px;
+	font-weight: bold;
+	font-size:100%;
+	}
+#yasumiya-parking li.parking1,#yakiyama-parking li.parking1 {background:url(../regulation/img/ico_p1.gif) no-repeat left center;}
+#yasumiya-parking li.parking2,#yakiyama-parking li.parking2 {background:url(../regulation/img/ico_p2.gif) no-repeat left center;}
+#yasumiya-parking li.parking3,#yakiyama-parking li.parking3 {background:url(../regulation/img/ico_p3.gif) no-repeat left center;}
+#yasumiya-parking li.parking4,#yakiyama-parking li.parking4 {background:url(../regulation/img/ico_p4.gif) no-repeat left center;}
+#yakiyama-parking {
+	}
+
+a.pdf-dl {
+	display: block;
+	background: url(../regulation/img/ico_pdf.png) no-repeat left center;
+	padding: 5px 0px 3px 15px;
+	}
+
+
+/* -- 共用floatクリア -- */
+
+
+.parents:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+	}
+* html .parents {
+	height: 1px;
+	}
+*:first-child+html .parents {
+	min-height: 1px;
+	}
+
+
+
+
+
+/* 追加CSS 2009/07/06 */
+
+
+#eco-festa {
+	background-color: #FFFFFF;
+	border: 1px solid #E2DD76;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 0 5px 0;
+	}
+#eco-festa h2 {
+	display: block;
+	height: 403px;
+	}
+#eco-festa h2 span {
+	display: none;
+	}
+#eco-festa ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+#eco-festa ul li {
+	display: block;
+	float: left;
+	}
+#eco-festa ul li.fes_01,
+#eco-festa ul li.fes_02 {
+	height: 66px;
+	}
+#eco-festa ul li img {
+	margin: 0px 0 0 0;
+	border: 0px;
+	vertical-align: bottom;
+	}
+#eco-festa a.detail-link img {
+	margin: 5px 0 0 0;
+	vertical-align: bottom;
+	}
+#eco-festa ul li.eco img {
+	margin: 5px 0 0 0;
+	vertical-align: bottom;
+}
+
+#eco-festa ul li.eco2 img {
+border: none;
+vertical-align: top;
+width: 589px;
+}
+
+#eco-festa ul li.eco3 img {
+	margin: 5px 0 5px 0;
+	vertical-align: bottom;
+}
+
+/* CSS追加_2010.06.02*/
+
+#eco_main {
+	height: 400px;
+	margin: 5px 0 5px 0;
+	padding: 5px ;
+	border: 1px solid #E2DD76;
+}
+
+#eco_left {
+	width: 390px;
+	margin: 0 3px 0 0;
+	padding:0;
+	float: left;
+}
+
+.eco_info {
+	width: 390px;
+	margin: 0;
+	padding: 0;
+}
+
+.eco_movie {
+	margin:0;
+	padding: 3px 0 0 0;
+}
+
+#eco_right {
+	width: 188px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+
+/* news */
+
+
+
+
+
+
+/* フロート解除：汎用 */
+.parents:after { height: 0; visibility: hidden; content: "."; display: block; clear: both; }
+* html .parents { height: 1px; }
+*:first-child+html .parents { min-height: 1px; }

@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+/*-------------------------------------------------
+	Style
+-------------------------------------------------*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS P Gothic",sans-serif;
+	font-size: 9pt;
+	line-height: 1.5em;
+	color: #333333;
+}
+
+body a, body a:visited {
+	text-decoration: none;
+	color: #FF6600;
+}
+
+body a:hover {
+	color: #FF9900;
+}
+
+/*-------------------------------------------------
+	ID
+-------------------------------------------------*/
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#visual li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#box_text1, #box_text2 {
+	width: 662px;
+	height: 662px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -331px 0px 0px -331px;
+	text-indent: -9999px;
+	display: none;
+}
+
+#box_text3 {
+	width: 806px;
+	height: 660px;
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	margin: -330px 0px 0px 0px;
+	text-indent: -9999px;
+	display: none;
+}
+
+
+#box_text1 { background: url(../images/text_01.png) 0 0 no-repeat; }
+#box_text2 { background: url(../images/text_02.png) 0 0 no-repeat; }
+#box_text3 { background: url(../images/text_03.png) 0 0 no-repeat; }
+
+#logo {
+	width: 121px;
+	height: 117px;
+	position: absolute;
+	top: 0px;
+	left: 21px;
+	text-indent: -9999px;
+	display: none;
+}
+
+#logo a {
+	width: 121px;
+	height: 117px;
+	background: url(../images/logo_01.png) 0 0 no-repeat;
+	display: block;
+}
+
+#logo a:hover {
+	opacity:0.75;
+	-moz-opacity:0.75;
+	filter: alpha(opacity=75);
+}
+
+#eventPhoto {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: none;
+}
+
+.eventPhoto_01 { margin: -260px 0px 0px -490px; }
+.eventPhoto_02 { margin: 130px 0px 0px 380px; }
+.eventPhoto_03 { margin: -400px 0px 0px 460px; }
+.eventPhoto_04 { margin: 100px 0px 0px -580px; }
+.eventPhoto_05 { margin: -150px 0px 0px -720px; }
+.eventPhoto_06 { margin: -60px 0px 0px 500px; }
+.eventPhoto_07 { margin: -230px 0px 0px 330px; }
+
+#button_skip {
+	width: 135px;
+	height: 30px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	display: block;
+	cursor: pointer;
+}
+
+#button_skip:hover {
+	opacity:0.75;
+	-moz-opacity:0.75;
+	filter: alpha(opacity=75);
+}
+
+/*-------------------------------------------------
+	#box
+-------------------------------------------------*/
+
+#box_main {
+	width: 454px;
+	height: 1247px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -623px;
+	background: url(../images/bg_main.png) 0 0 no-repeat;
+	display: none;
+}
+
+#box_main .copyright {
+	width: auto;
+	height: 27px;
+	position: absolute;
+	top: 1017px;
+	right: 0;
+	line-height: 27px;
+	padding-right: 5px;
+	font-size: 7pt;
+	color: #FFF;
+}
+
+#box_scroll {
+	width: 454px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: auto;
+	display: none; 
+}
+
+#box_scroll .container {
+	width: 372px;
+	height: 776px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -388px 0px 0px -176px;
+	/*background-color:#CCC;*/
+}
+
+#box_scroll .language_menu {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#box_scroll .text_01 {
+	width: 372px;
+	position: absolute;
+	top: 283px;
+	font-size: 10pt;
+	line-height: 1.5em;
+}
+#box_scroll .stop {
+	width: 372px;
+	position: absolute;
+	top: 283px;
+	font-size: 12pt;
+	line-height: 1.4;
+	color:#fff;
+	background-color:#F00;
+	padding:3px;
+
+}
+
+#box_scroll .parts_01 {
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	text-indent: -9999px;
+	background: url(../images/parts_01.png) 0 0 no-repeat;
+	top: 80px;
+	left: 60px;
+}
+#box_scroll .links {
+	width: 280px;
+	position: absolute;
+	top: 210px;
+	left: 100px;
+	font-size: 10pt;
+	line-height: 1.5em;
+}
+
+#box_scroll .youtube_button {
+	width: 126px;
+	height: 126px;
+	position: absolute;
+	text-indent: -9999px;
+	left: 80px;
+	top: 618px;
+}
+
+#box_scroll .youtube_button a {
+	width: 126px;
+	height: 126px;
+	background: url(../images/parts_06.png) 0 0 no-repeat;
+	display: block;
+}
+
+#box_scroll .youtube_caption {
+	width: 158px;
+	height: 120px;
+	position: absolute;
+	text-indent: -9999px;
+	background: url(../images/parts_07.jpg) 0 0 no-repeat;
+	left: 212px;
+	top: 620px;
+}
+
+#box_scroll ul.menu {
+	width: 372px;
+	height: 113px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 484px;
+	left: 0px;
+}
+
+#box_scroll ul.menu li {
+	height: 113px;
+	float: left;
+}
+
+#box_scroll ul.menu li a {
+	height: 113px;
+	display: block;
+}
+
+#box_scroll li.menu_01 a {
+	width: 87px;
+	background: url(../images/parts_02.png) 0 0 no-repeat;
+	margin-right: 13px;
+}
+
+#box_scroll li.menu_02 a {
+	width: 76px;
+	background: url(../images/parts_03.png) 0 0 no-repeat;
+	margin-right: 8px;
+}
+
+#box_scroll li.menu_03 a {
+	width: 93px;
+	background: url(../images/parts_04.png) 0 0 no-repeat;
+	margin-right: 10px;
+}
+
+#box_scroll li.menu_04 a {
+	width: 85px;
+	background: url(../images/parts_05.png) 0 0 no-repeat;
+}
+
+#box_scroll li.menu_01 a:hover, #box_scroll li.menu_02 a:hover,
+#box_scroll li.menu_03 a:hover, #box_scroll li.menu_04 a:hover,
+#box_scroll .youtube_button a:hover {
+	opacity:0.75;
+	-moz-opacity:0.75;
+	filter: alpha(opacity=75);
+}
+
+/*-------------------------------------------------
+	Class
+-------------------------------------------------*/
+
+.clear {
+	clear: both;
+}
+
+.active {
+	display: block;
+}

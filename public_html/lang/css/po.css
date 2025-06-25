@@ -1,0 +1,97 @@
+.event-box {
+	margin: 10px 5px 10px 10px;
+	padding: 10px 5px 10px 10px;
+	border: 1px solid #E5E5E5;
+	}
+
+.event-box dl,
+.event-box dt,
+.event-box dd {
+	margin: 0;
+	padding: 0;
+	}
+.event-box img {
+	vertical-align: bottom;
+	}
+.event-box .event-set {
+	border-top: 3px solid #F5F2D0;
+	padding: 5px 0 5px 0;
+	}
+.event-box dd.caption {
+	display: block;
+	padding: 5px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #607B3E;
+	}
+.event-box dd.dl-pdf {
+	float: right;
+	width: 150px;
+	}
+
+.event-box dl {
+	float :left;
+	width: 380px;
+	}
+.event-box div.dl-pdf {
+	float :right;
+	margin: 0 0 0 0;
+	width: 160px;
+	}
+.event-box div.dl-pdf a {
+	padding: 0 0 0 20px;
+	background: url(../img/cate/ico_pdf.png) no-repeat left center;
+	}
+
+
+.event-box-09 {
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	background: #F7F8DC;
+	border: 1px solid #E5E5E5;
+	}
+
+.event-box-09 dl,
+.event-box-09 dt,
+.event-box-09 dd {
+	margin: 0;
+	padding: 0;
+	}
+.event-box-09 img {
+	vertical-align: bottom;
+	}
+.event-box-09 .event-set {
+	border-top: 3px solid #EF6520;
+	padding: 5px 0 5px 0;
+	}
+.event-box-09 dd.caption {
+	display: block;
+	padding: 5px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #417441;
+	}
+.event-box-09 dd.dl-pdf {
+	float: right;
+	width: 150px;
+	}
+
+.event-box-09 dl {
+	float :left;
+	width: 380px;
+	}
+.event-box-09 div.dl-pdf {
+	float :right;
+	margin: 0 0 0 0;
+	width: 160px;
+	}
+.event-box-09 div.dl-pdf a {
+	padding: 0 0 0 20px;
+	background: url(../img/cate/ico_pdf.png) no-repeat left center;
+	}
+.other-car {
+	margin: 0;
+	}
+.other-car li {
+	margin: 0 0 0 15px;
+	}

@@ -1,0 +1,1134 @@
+﻿html {
+/*	overflow-y:scroll; */
+}
+body {
+/*	font-size: small;*/
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+/*	line-height: 1.5em; */
+	font-weight: normal;
+}
+p,h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	padding: 0px;
+}
+h3 {
+	padding-left: 27px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #64AA44;
+	padding-top: 12px;
+	padding-bottom: 3px;
+	margin-top: 15px;
+	background: url(../images/h3_ico.gif) no-repeat left bottom;
+	line-height: 1.2;
+	/font-size: 14px;
+}
+p {
+/*	line-height: 1.4;*/
+	line-height: 1.6;
+}
+#main_contents {
+/*	font-size: small; */
+}
+#all {
+	max-width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top {
+	background-image: url(../img/all_top.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+/*
+#header {
+	background-image: url(../img/all_center.gif);
+	background-size: contain;
+	background-repeat: repeat-y;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+*/
+#contents {
+	background-image: url(../img/all_center.gif);
+	background-size: contain;
+	background-repeat: repeat-y;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+}
+#contents-inner {
+	float: left;
+	display:block;
+}
+#left {
+	float: left;
+	width: 196px;
+	margin-right: 5px;
+}
+#menu {
+	padding-bottom: 7px;
+}
+#bana {
+}
+
+.box-1 {
+	background-color: #eadece;
+	padding: 15px;
+	margin: 5px 0;
+}
+.color_navy {
+	color: #49579e;
+}
+
+#projectteam {
+	width: 196px;
+	margin: 0 0 20px 0;
+}
+#projectteam dl,
+#projectteam dl dd,
+#projectteam dl dt {
+	margin:0;
+	padding:0;
+}
+#projectteam dl img {
+	vertical-align: bottom;
+	margin: 0 0 3px 0;
+}
+#projectteam dl {
+	display: block;
+	padding: 6px;
+	border: 1px solid #cccccc;
+	background-color: #eeeeee;
+}
+#projectteam dl dd {
+	text-align: center;
+}
+#projectteam dl a span {
+	font-size: 85%;
+}
+#projectteam {
+}
+
+
+#right {
+	float: left;
+	max-width: 599px;
+	margin-bottom: 10px;
+}
+#right img,#right table {
+	width: 100%;
+	height: auto;
+}
+#right .categories-nav a img {
+	max-width: 190px;
+}
+
+#news {
+	max-width: 439px;
+	padding-right: 5px;
+	float: left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#news-title {
+	background-color: #8ACDDC;
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+* html #news-title {
+	padding-top: 7px;
+	padding-bottom: 2px;
+}
+#event-title {
+	background-color: #D5AD0F;
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+* html #event-title {
+	padding-top: 7px;
+	padding-bottom: 2px;
+}
+#camera {
+	width: 150px;
+	float: left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#kisei {
+	background-image: url(../img/bg_car.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 10px;
+	border: 1px solid #DBDBDB;
+	max-width: 577px;
+	float: left;
+	margin-bottom: 5px;
+}
+#folumbana {
+	margin: 0 0 5px 0;
+	}
+#folumbana img {
+	vertical-align: bottom;
+	}
+
+
+#all #contents #kisei h2 {
+	font-size: 100%;
+	line-height: 1.0;
+	background: #881111;
+	max-width: 577px;
+	margin: 0 0 10px 0;
+	}
+#all #contents #kisei h2 span {
+	padding: 8px 5px 5px 5px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #ffffff;
+	display: block;
+	line-height: 1.0;
+	}
+
+
+#tyuui {
+}
+.right-inner {
+	padding: 15px;
+}
+
+
+/*
+#footer {
+	background-image: url(../img/all_bottom.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	padding-top: 20px;
+	clear: both;
+}
+*/
+
+
+#tour-area {
+	margin: 0 0 5px 0;
+	}
+
+/* 緊急速報用 */
+
+#caution {
+	}
+#caution #caution-title {
+	display: none;
+	}
+#caution #caution-inner {
+	border: 2px solid #cc3333;
+	padding: 10px;
+	margin: 0 0 5px 0;
+	}
+
+#caution #quake-detail {
+	font-weight: bold;
+	line-height: 1.3;
+	color: #cc3333;
+	text-align: center;
+	}
+#caution #road-detail {
+	text-align: center;
+	}
+
+.caution-detail {
+	font-weight: bold;
+	color: #cc3333;
+	margin: 0 0 15px 0;
+	}
+
+
+/* 080821以降追加分 */
+
+/* -- カテゴリーリンク -- */
+
+.categories-nav {
+	margin: 0 0 3px 0;
+	}
+
+/* -- トップページ（index.html） -- */
+
+#summary {
+	clear: both;
+	margin: 0 0 5px 0;
+	border: 1px solid #7BB927;
+	font-size: 100%;
+	line-height: 1.0;
+	}
+#all #contents #summary h2 {
+	font-size: 100%;
+	line-height: 1.0;
+	background: #7BB927;
+	}
+#all #contents #summary h2 span {
+	padding: 8px 5px 5px 5px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #ffffff;
+	display: block;
+	line-height: 1.0;
+	}
+#all #contents #summary #forum,
+#all #contents #summary #mycar,
+#all #contents #summary #ticket {
+	}
+
+#summary #forum,
+#summary #mycar,
+#summary #ticket {
+	float: left;
+	width: 195px;
+	padding: 5px 0 5px 0;
+	}
+#summary dl {
+	padding: 0;
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	}
+#summary dt,
+#summary dd {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	}
+#summary dt.date span {
+	font-weight: bold;
+	font-size: 110%;
+	}
+#summary dd.image {
+	margin: 5px 0 0 0;
+	}
+#summary dd.detail {
+	color: #E4570C;
+	font-weight: bold;
+	line-height: 1.3;
+	}
+#summary .link-box {
+	clear: both;
+	text-align: right;
+	padding: 10px;
+	}
+
+#report {
+	clear: both;
+	margin: 0 0 5px 0;
+	border: 1px solid #7BB927;
+	font-size: 110%;
+	line-height: 1.0;
+	padding: 20px;
+	}
+#report #thanks {
+	max-width: 320px;
+	float: left;
+	}
+#report #eve-result {
+	width: 230px;
+	margin: 0 0 5px 0;
+	float: left;
+	}
+#report #eve-detail {
+	width: 230px;
+	float: left;
+	}
+#report #thanks p {
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 1.3;
+	color: #61811F;
+	}
+#report #eve-result a {
+	display: block;
+	width: 222px;
+	height: 42px;
+	background: url(../img/btn_eve-result.gif);
+	}
+#report #eve-result a span {
+	display: none;
+	}
+#report #eve-detail a {
+	display: block;
+	width: 222px;
+	height: 42px;
+	background: url(../img/btn_eve-detail.gif);
+	
+	}
+#report #eve-detail a span {
+	display: none;
+	}
+
+
+/* -- 規制情報（detail.html） -- */
+.detail_title-1 {
+	color: red;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 20px 0 10px;
+}
+.detail_title-2 {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+.font_s {
+	font-size: 14px;
+	font-weight: bold;
+}
+.font_m {
+	font-size: 18px;
+	font-weight: bold;
+}
+.font_l {
+	font-size: 28px;
+	font-weight: bold;
+}
+.font_m2 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+.col_red {
+	color: red;
+}
+.col_sky {
+	color: skyblue;
+}
+.border_b1 {
+	border-bottom: dashed 2px red;
+}
+.border_b2 {
+	border-bottom: solid 6px red;
+}
+.restriction_table {
+	border-collapse: collapse;
+	margin: 10px auto 0;
+	width: 100%;
+}
+.restriction_table td {
+	padding: 5px;
+	vertical-align: top;
+	text-align: center;
+}
+.restrict_info {
+	background-color: #eee;
+	padding: 15px;
+	margin-bottom: 30px;
+	color: #333;
+}
+.restrict_title {
+	background-color: #e50012;
+	color: #fff;
+	font-size: 14px;
+	margin: 5px 0;
+	padding: 2px 7%;
+	position: relative;
+}
+.number {
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	margin-left: 5px;
+}
+.restrict_inner {
+	margin: 15px 3%;
+}
+.restrict_arrow {
+	float: left;
+	margin-right: 15px;
+	position: relative;
+	height: 44px;
+	width: 120px;
+}
+.restrict_arrow img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.restrict_arrow p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 8px;
+	width: 100%;
+	height: 44px;
+	position: relative;
+	z-index:2;
+	line-height: 1.1;
+}
+.restrict_content {
+	overflow: hidden;
+	font-size: 12px;
+}
+.mgn_b1 {
+	margin-bottom: 30px;
+}
+.mgn_b2 {
+	margin-bottom: 15px;
+}
+div.info {
+	margin-left: 20px;
+	overflow: hidden;
+	}
+div.info h3 {
+	margin: 0 0 3px 0;
+	font-size: 100%;
+	}
+div.info h3 span {
+	font-size: 90%;
+	font-weight: normal
+	}
+div.info h4 {
+	margin: 5px 0 0 0;
+	padding: 0 0 0 15px;
+	background: url(../images/ico_leaf.gif) no-repeat left center;
+	font-size: 100%;
+	}
+div.info p {
+	padding: 0px 0 5px 15px;
+	}
+div.info span.caution {
+	font-size: 90%;
+	color: #cc3333;
+	}
+
+/* -- チーム員（team.html） -- */
+.team {
+ padding-top: 0;
+}
+.team #team-list {
+	margin: 5px 0 20px 0;
+	}
+.team p.detail {
+	padding: 5px 0 15px 0;
+	}
+.team p.intro {
+	margin: 15px 0 5px;
+	padding: 5px;
+	border: 2px solid #83BD35;
+	text-align: center;
+	font-weight: bold;
+	color: #3A5735;
+	}
+.team ul {
+	margin: 0;
+	padding: 0;
+	}
+.team ul li {
+	list-style: none;
+	}
+
+.team #team-list ul {
+	border-top: 1px solid #3A5735;
+	border-left: 1px solid #3A5735;
+	margin: 0 0 3px 0;
+	}
+.team #team-list ul li {
+	border-right: 1px solid #3A5735;
+	border-bottom: 1px solid #3A5735;
+	background: url(../images/bkg_team.gif) repeat-x left center;
+	}
+.team #team-list ul li a:link,
+.team #team-list ul li a:visited {
+	color: #333399;
+	}
+
+.team #team-list ul#s-class {
+	border: 1px solid #000000;
+	}
+.team #team-list ul#s-class li {
+	border: none;
+/*	height: 40px; */
+	margin: 0;
+	padding: 0;
+	}
+.team #team-list ul#s-class li span {
+	background: url(../images/ico_leafs.gif) no-repeat 5px 5px;
+	display: block;
+/*	white-space: nowrap; */
+	font-weight: bold;
+	}
+.team #team-list ul#s-class li span.name {
+	padding: 12px 0 0 38px;
+	font-size: 190%;
+	text-decoration: none;
+	}
+
+
+
+
+.team #team-list ul#a-class li span {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 10px 5px 5px 28px;
+	background: url(../images/ico_leafs.gif) no-repeat left center;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1.0;
+	color: #333399;
+	}
+* html .team #team-list ul#a-class li span {
+	padding: 12px 5px 3px 28px;
+	}
+
+.team #team-list ul#b-class li {
+	}
+.team #team-list ul#b-class li span {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 5px 3px 5px 15px;
+	background: url(../images/ico_leaf.gif) no-repeat left center;
+	font-weight: bold;
+	font-size: 105%;
+	color: #333399;
+	}
+* html .team #team-list ul#b-class li span {
+	padding: 8px 3px 3px 15px;
+	}
+
+.team #team-list ul#c-class li {
+	float: left;
+	max-width: 285px;
+  width: 50%;
+	box-sizing: border-box;
+	}
+.team #team-list ul#c-class li span {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 1px 3px 1px 0px;
+	font-size: 90%;
+	color: #333399;
+	}
+* html .team #team-list ul#c-class li span {
+	padding: 2px 3px 0px 0px;
+	}
+
+
+.team #team-list ul#a-class {}
+.team #team-list ul#a-class {}
+.team #team-list ul#a-class {}
+.team #team-list ul#a-class {}
+
+
+
+/* -- シャトル遊覧（bus-ship.html） -- */
+#ticket-office ul {
+	padding: 0;
+	margin: 0 0 0 0;
+	}
+#ticket-office li {
+	display: block;
+	float: left;
+	list-style: none;
+	padding: 10px 10px 10px 33px;
+	font-weight: bold;
+	font-size:100%;
+	}
+#ticket-office li.ticket-offic1 {background:url(../images/ico_to1.png) no-repeat left center;}
+#ticket-office li.ticket-offic2 {background:url(../images/ico_to2.png) no-repeat left center;}
+#ticket-office li.ticket-offic3 {background:url(../images/ico_to3.png) no-repeat left center;}
+table.time-table {
+	border-collapse: collapse;
+	border: 2px solid #64AA44;
+	margin: 10px 15px 10px 0;
+	float: left;
+	}
+table.time-table td,
+table.time-table th {
+	border: 1px solid #64AA44;
+	padding: 1px 6px 1px 6px;
+	font-size: 90%;
+	font-family:"ＭＳ ゴシック";
+	line-height: 1.7em;
+	}
+table.time-table th {
+	color: #ffffff;
+	font-size: 100%;
+	
+	}
+table.time-table td span {
+	color: #336600;
+	}
+
+.time-table-detail h4 {
+	color: #83BD35;
+	}
+.time-table-detail h4 span {
+	color: #333333;
+	}
+.time-table-detail p span {
+	color: #006633;
+	}
+
+
+#ship-guide #a-course,
+#ship-guide #b-course {
+	float: left;
+/*	width: 270px; */
+	width: 50%;
+	max-width: 400px;
+	padding: 5px 10px;
+	}
+#ship-guide #a-course li,
+#ship-guide #b-course li {
+ list-style: none;
+}
+#ship-guide table,
+#ship-guide table th,
+#ship-guide table td {
+	padding: 3px;
+	border-collapse: collapse;
+	border: 1px solid #3E6EB4;
+	text-align: center;
+/*	width: 270px; */
+	width: 100%;
+	color: #FFFFFF;
+	}
+#ship-guide #a-course th {
+	background-color: #3E6EB4;
+	}
+#ship-guide #b-course th {
+	background-color: #3E6EB4;
+	}
+#ship-guide #a-course td,
+#ship-guide #b-course td {
+	font-weight: bold;
+	font-size: 110%;
+	padding: 5px;
+	color: #333333;
+	}
+
+#ship-guide #a-course p,
+#ship-guide #b-course p {
+	margin: 5px 0 0;
+	}
+#ship-guide #a-course dt, #ship-guide #a-course strong {color: #83BD35;font-weight: bold;}
+#ship-guide #b-course dt, #ship-guide #b-course strong {color: #ff9933;font-weight: bold;}
+#ship-guide dt span,#ship-guide strong span {color: #000000;}
+#ship-guide #b-course {}
+#ship-guide {}
+#ship-guide dd {margin: 0 0 0 15px;}
+#ship-guide span.caution {color:#cc3333;}
+
+#summary-box {
+	clear: both;
+	}
+#summary-box table {
+	max-width: 550px;
+	padding: 5px;
+	border-collapse: collapse;
+	border: 2px solid #3E6EB4;
+	}
+#summary-box table td {
+	border: 2px solid #3E6EB4;
+	text-align: left;
+	color: #333333;
+	}
+#summary-box table td ul {
+	margin: 0;
+	padding: 0;
+	}
+#summary-box table td ul li {
+	list-style: none;
+	font-weight: bold;
+	}
+#summary-box table td strong {
+	color: #3E6EB4;
+	}
+#summary-box table td strong span {
+	color: #000000;
+	}
+#summary-box table span.tel {
+	display: block;
+	padding: 5px 0 5px 20px;
+	background: url(../regulation/img/ico_tel.gif) no-repeat left center;
+	font-size: 110%;
+	font-weight: bold;
+	margin-left: 100px;
+	}
+
+/* -- 駐車場ガイド（parking.html） -- */
+
+#yakiyama-parking,
+#yasumiya-parking {
+	margin: 10px 0 0 0;
+	}
+#yakiyama-parking strong,
+#yasumiya-parking strong {
+	display: block;
+	padding: 20px 0 0 0;
+	font-size: 110%;
+	line-height: bold;
+	color:#ff9933;
+	background: url(../img/ico_line.png) repeat-x left bottom;
+	}
+#yakiyama-parking strong span,
+#yasumiya-parking strong span {
+	color:#000000;
+	}
+#yakiyama-parking ul,
+#yasumiya-parking ul {
+	padding: 0;
+	margin: 0 0 0 0;
+	}
+#yakiyama-parking li,
+#yasumiya-parking li {
+	display: block;
+	float: left;
+	list-style: none;
+	padding: 10px 10px 10px 33px;
+	font-weight: bold;
+	font-size:100%;
+	}
+#yasumiya-parking li.parking1,#yakiyama-parking li.parking1 {background:url(../images/ico_p1.gif) no-repeat left center;}
+#yasumiya-parking li.parking2,#yakiyama-parking li.parking2 {background:url(../images/ico_p2.gif) no-repeat left center;}
+#yasumiya-parking li.parking3,#yakiyama-parking li.parking3 {background:url(../images/ico_p3.gif) no-repeat left center;}
+#yasumiya-parking li.parking4,#yakiyama-parking li.parking4 {background:url(../images/ico_p4.gif) no-repeat left center;}
+#yasumiya-parking li.parking5,#yakiyama-parking li.parking5 {background:url(../images/ico_p5.gif) no-repeat left center;}
+#yakiyama-parking {
+	}
+#map1,#map2 {
+ width: 100%;
+ height: 400px;
+}
+
+a.pdf-dl {
+	display: block;
+	background: url(../regulation/img/ico_pdf.png) no-repeat left center;
+	padding: 5px 0px 3px 15px;
+	}
+
+/* 過去の履歴 活動実績 */
+p.detail > a,.old-news {
+ height: 40px;
+ display: inline-block;
+}
+
+
+
+/* -- 共用floatクリア -- */
+
+
+.parents:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+	}
+* html .parents {
+	height: 1px;
+	}
+*:first-child+html .parents {
+	min-height: 1px;
+	}
+
+
+
+
+
+/* 追加CSS 2009/07/06 */
+
+
+#eco-festa {
+	background-color: #FFFFFF;
+	border: 1px solid #E2DD76;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 0 5px 0;
+	}
+#eco-festa h2 {
+	display: block;
+	height: 403px;
+	}
+#eco-festa h2 span {
+	display: none;
+	}
+#eco-festa ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+#eco-festa ul li {
+	display: block;
+	float: left;
+	}
+#eco-festa ul li.fes_01,
+#eco-festa ul li.fes_02 {
+	height: 66px;
+	}
+#eco-festa ul li img {
+	margin: 0px 0 0 0;
+	border: 0px;
+	vertical-align: bottom;
+	}
+#eco-festa a.detail-link img {
+	margin: 5px 0 0 0;
+	vertical-align: bottom;
+	}
+#eco-festa ul li.eco img {
+	margin: 5px 0 0 0;
+	vertical-align: bottom;
+}
+
+#eco-festa ul li.eco2 img {
+border: none;
+vertical-align: top;
+max-width: 589px;
+}
+
+#eco-festa ul li.eco3 img {
+	margin: 5px 0 5px 0;
+	vertical-align: bottom;
+}
+
+/* CSS追加_2010.06.02*/
+
+#eco_main {
+	height: 470px;
+	margin: 5px 0 5px 0;
+	padding: 5px ;
+	border: 1px solid #E2DD76;
+}
+
+#eco_main_g{
+	
+
+	text-align:center;
+
+	margin: 5px 0 5px 0;
+	padding: 5px ;
+	border: 1px solid #E2DD76;
+}
+
+#eco_left {
+	max-width: 390px;
+	margin: 0 3px 0 0;
+	padding:0;
+	float: left;
+}
+
+.eco_info {
+	width: 390px;
+	margin: 0;
+	padding: 0;
+}
+
+.eco_movie {
+	margin:0;
+	padding: 3px 0 0 0;
+}
+
+#eco_right {
+	width: 188px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+
+/* news */
+
+
+
+
+
+
+/* フロート解除：汎用 */
+.parents:after { height: 0; visibility: hidden; content: "."; display: block; clear: both; }
+* html .parents { height: 1px; }
+*:first-child+html .parents { min-height: 1px; }
+
+/* 多国語メニュー */
+.language_menu {
+	text-align:right;
+	margin: 0 10px 10px 0;
+}
+
+/* ecoもびウォークリンク */
+
+.eco_movi {
+	margin: 10px 0 10px 0;
+	font-size:12px;
+}
+
+.timeline {
+	margin: 15px 0 10px 15px;
+/*	font-size:16px;
+	font-weight:bold;*/
+}
+.red{
+	color:#e60012;
+}
+table#faq {
+    border-top: 1px #E3E3E3 solid;
+    border-right: 1px #E3E3E3 solid;
+    margin-top: 20px;
+/*    border-collapse: collapse;
+    border-spacing: 0;*/
+}
+
+table#faq th {
+    padding: 5px;
+    border: #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    font-weight: bold;
+    text-align: left;
+}
+table#faq td {
+    padding: 5px 5px 10px;
+    border: 1px #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+}
+table#faq ul {
+    list-style: none;
+}
+table#faq ul li:before {
+    content: '・';
+    display: block;
+    float: left;
+}
+table#faq ul li {
+    margin-top: 6px;
+    line-height: 1.4;
+}
+table#faq ul li:first-child {
+    margin-top: 0px;
+}
+table#faq ul li p {
+    overflow: hidden;
+    margin-top: 5px;
+}
+.table-text{
+   text-align: center;
+}
+div.walking {
+/* max-width: 568px;*/
+ max-width: 650px;
+ margin-left: auto;
+ margin-right: auto;
+}
+div.walking .imgbox {
+ padding-right: 10px;
+ float: left;
+ text-align: center;
+}
+div.walking .infobox {
+ overflow: hidden;
+}
+div.walking .infobox td {
+ line-height: 1.3;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+.volunteer-name {
+ font-size: 18px;
+ font-weight: bold;
+ margin: 7px 0 15px;
+ line-height: 1.2;
+}
+#link {
+ line-height: 2;
+}
+#link > p {
+ margin-bottom: 20px;
+}
+.banner-box img {
+ margin:0 20px 20px 0;
+}
+@media screen and (max-width:600px) {
+ div.walking .imgbox {
+  float: none;
+  padding-right: 0;
+  margin-bottom: 20px;
+ }
+ .team #team-list ul#c-class li {
+  float: none;
+  width: auto;
+  padding: 3px 0;
+  max-width: none;
+ }
+}
+@media screen and (max-width:420px) {
+ div.info {
+	margin-left: 0;
+	padding-top: 20px;
+	clear: both;
+	overflow: visible;
+ }
+ .banner-box img {
+  display: block;
+  margin:0 auto 20px auto;
+ }
+ .restriction_table td .weekday {
+  font-size: 14px;
+ }
+ .restrict_arrow {
+  float: none;
+  margin-bottom: 5px;
+ }
+ .detail_title-1 {
+  font-size: 22px;
+ }
+ .font_m2 {
+  font-size: 14px;
+ }
+ #ship-guide #a-course, #ship-guide #b-course {
+  width: auto;
+ }
+ table.time-table, 
+ #ship-guide table {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  width: 100%;
+  max-width: 360px;
+ }
+ #link > p {
+  margin-bottom: 20px;
+ }
+ div.walking .infobox table,
+ div.walking .infobox tbody,
+ div.walking .infobox tr,
+ div.walking .infobox td {
+  display: block;
+ }
+ div.walking .infobox tr {
+  padding-bottom: 20px;
+ }
+ div.walking .infobox td {
+  padding-top: 0px;
+ }
+ div.walking .infobox td:nth-child(2) {
+  display: none;
+ }
+ div.walking .infobox td:nth-child(3) {
+  padding-left: 15px;
+ }
+}

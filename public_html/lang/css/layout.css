@@ -1,0 +1,250 @@
+#bana .spu05 {
+	padding-bottom: 5px;
+}
+#camera-towadako {
+	background-image: url(../img/camera_bg01.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	min-height: 115px;
+	margin-bottom: 3px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+* html #camera-towadako {
+	height: 115px;
+}
+#camera-towadako .spu {
+	margin-bottom: 3px;
+}
+#camera-wether {
+	padding-bottom: 5px;
+}
+#camera-aomori {
+	padding-top: 5px;
+}
+#camera-lake {
+/*	display: block;
+	width: 155px;
+	height: 158px;
+	background: url(../img/home/bna_came-lake.png) no-repeat 0 0;*/
+	padding-top: 5px;
+}
+#camera-lake .lake-image {
+/*	display: block;
+	padding: 14px 0 0 12px;*/
+	}
+#camera-lake .lake-image img {
+/*	vertical-align: bottom;*/
+	}
+#camera-lake .lake-text {
+/*	display: block;
+	padding: 10px 0 0 6px;*/
+	}
+
+
+#event-inner {
+	border: 1px solid #D5AD0F;
+	padding: 8px 10px;
+	margin-bottom: 5px;
+}
+#event-inner h4 {
+	color: #cc6633;
+	margin: 0 0 5px 0;
+}
+#event-inner ul {
+	margin: 5px 5px 5px 0px;
+}
+* html #event-inner ul {
+	margin: 5px 5px 0px 40px;
+}
+#news-inner {
+	border: 1px solid #8acddc;
+	padding-right: 7px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	padding-top: 5px;
+	_padding: 0 2px 0 2px;
+	_width: 432px;
+/*	min-height: 139px; */
+}
+/*
+* html #news-inner {
+	height: 139px;
+}
+*/
+#news-inner dl {
+	width:432px;
+	border-bottom: 1px dotted #cccccc;
+	margin-top: 3px;
+	margin-bottom: 7px;
+}
+
+#news-inner dt {
+	display: block;
+	background-image: url(../img/home/ico_lake.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 17px;
+	width:115px;
+	float:left;
+}
+#news-inner dd {
+	margin-left:138px;
+	padding-left:0px;
+	width:287px;
+}
+
+h3 .date {
+	font-size: small;
+	font-weight: normal;
+}
+.news-img {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.news-img img {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#rireki p {
+	padding-top: 5px;
+	background-image: none;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: right;
+	min-height: 23px;
+}
+* html #rireki p {
+	height: 23px;
+}
+
+#rireki p a.old-news span {
+	padding: 0 0 0 16px;
+	background: url(../img/home/ico_arrow_gre.png) no-repeat left center;
+	line-height: 1em;
+	}
+
+#news-rireki {
+}
+
+#news-rireki dl {
+	width:590px; 
+}
+
+#news-rireki dt {
+	background-image: url(../img/icon_news.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-weight: bold;
+	line-height: 1.2em;	
+	padding:5px 0 5px 28px;
+	width:130px;
+	float:left; 
+}
+#news-rireki dd {
+	line-height: 1.2em;
+	margin-left:158px;
+	padding:5px 5px 5px 5px;  
+	width:415px;
+}
+
+
+#kisei #left {
+	width: 363px;
+	padding-right: 10px;
+	float: left;
+}
+#kisei #right {
+	width: 204px;
+	float: left;
+}
+#kisei .spu10px {
+	padding-bottom: 10px;
+}
+#kisei .spu05px {
+	padding-bottom: 5px;
+}
+
+#kisei .point {
+	color: #eb6877;
+}
+.volunteer-name {
+	margin-bottom: 5px;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FF9900;
+	font-weight: bold;
+}
+#link {
+}
+#link p {
+	background-image: url(../img/icon_news.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 28px;
+	min-height: 23px;
+	padding-top: 5px;
+}
+.cap01 {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+.cap02 {
+	text-indent: -2em;
+	padding-left: 2em;
+}
+.cap01-1 {
+	text-indent: -1em;
+	padding-left: 2em;
+}
+.cap02-1 {
+	text-indent: -2em;
+	padding-left: 3em;
+}
+.cap-01 {
+	text-indent: 1em;
+	padding-left: -1em;
+}
+.clear {
+	clear: left;
+}
+.li {
+	list-style-position:inherit;
+}
+table.day td {
+	padding: 7px;
+}
+table.day td.day01a {
+	background-color: #4FD0BA;
+	background-image: url(../project/img/day01.gif);
+	background-repeat: no-repeat;
+	width: 200px;
+	color: #FFFFFF;
+}
+table.day td.day01b {
+	border: 1px solid #4FD0BA;
+}
+table.day td.day02a {
+	background-color: #0AADE8;
+	background-image: url(../project/img/day02.gif);
+	background-repeat: no-repeat;
+	width: 200px;
+	color: #FFFFFF;
+}
+table.day td.day02b {
+	border: 1px solid #0AADE8;
+}
+table.day td.day03a {
+	background-color: #8FCFF5;
+	background-image: url(../project/img/day03.gif);
+	background-repeat: no-repeat;
+	width: 200px;
+	color: #FFFFFF;
+}
+table.day td.day03b {
+	border: 1px solid #8FCFF5;
+}
